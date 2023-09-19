@@ -7,7 +7,7 @@
  *
  *Return: Void
  */
-void execute_cmd(char *args[])
+void execute_command(char *args[])
 {
 	pid_t pid;
 	int status;

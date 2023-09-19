@@ -5,7 +5,7 @@
  * Return: 1
  */
 
-int tests(ssize_t chars_read)
+int shell_tests(ssize_t chars_read)
 {
 if (chars_read == -1)
 {

@@ -9,8 +9,8 @@
 #include <string.h>
 #define COMMAND_LENGTH 1024
 
-void execute_cmd(char *args[]);
+void execute_command(char *args[]);
 void tokenizer(char *command, char *args[]);
-int tests(ssize_t chars_read);
+int shell_tests(ssize_t chars_read);
 
 #endif
