@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 
 /**
  * tokenizer - to tokenize command using strtok
